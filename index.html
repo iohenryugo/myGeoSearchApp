@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="GeoSearchApp">
+	<meta name="keywords" content="Geo search, place map, areas">
+	<meta name="author" content="Uwazuruike Ugochukwu">
+    <title>Geo Search App</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+	<!--navigation bar-->
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1 class="highlight">Geo Search</h1>
+				<h2 id="logo">DevCWIthAndela</h1>
+			</div>
+			<nav>
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="#search">Search</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!--end of navigation bar-->
+
+	<!--show map-->
+	<main id="mapSection">
+		<section class="container">
+			<div class="map-div">
+				<img src="img/mapbanner.JPG" alt="map">
+			</div>
+
+			<h2>VIEW PLACES OF INTEREST WITH GEOSEARCH</h2>
+
+		</section>
+	</main>
+	<!--show map-->
+
+	<!--search section-->
+	<section id="search">
+		<div class="container">
+			<h3>Your Choice Location Is Just A Search Away</h3>
+			<form>
+				<input type="text" placeholder="Location OF Choice">
+				<button type="submit" class="buttonSearch">Search</button>
+			</form>
+		</div>
+		
+
+	</section>
+	<!--end of search section-->
+
+	<!--search result section-->
+	<section id="searchResult">
+		<div class="container">
+			<!--<h1>The result should be added here </h1>-->
+			<h3 class="h3">Abuja</h3>
+			<div>
+				<div id="map">Geographical Map Of Choice Location</div>
+			</div>
+
+			<h3>Place information</h3>
+			<table class="place-info">
+            <tr>
+              <td>Humidity</td>
+              <td id="humidity">Humid</td>
+            </tr>
+            <tr>
+              <td>Weather</td>
+              <td id="weather">Autumn</td>
+            </tr>
+
+            <tr>
+              <td>Windspeed</td>
+              <td id="windspeed">40mph</td>
+            </tr>
+
+            <tr>
+              <td>Temperature</td>
+              <td id="temperature">27F</td>
+              <td>
+                <select name="convert" size="1" id="convert">
+                  <option value="Celsius">Celcius</option>
+                  <option value="Fahrenheit">Fahrenheit</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Postal code</td>
+              <td id="postal-code">900231</td>
+            </tr>
+          </table>
+
+
+		</div>
+	</section>
+	<!--end search result section-->
+
+	<!--footer Section-->
+	<footer>
+		<p>Designed By DrPeppleNet, Copyright &copy; 2019</p>
+		<p>Email: officialuwazuruike@gmail.com</p>
+		<p>Mobile: (+234)8166365000</p>
+	</footer>
+	<!--footer Section-->
+
+
+
+
+</body>
+</html>
